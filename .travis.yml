@@ -1,3 +1,7 @@
+script: echo "Djungelorm"
+branches:
+  only:
+  - master
 deploy:
   provider: firebase
   skip_cleanup: true
