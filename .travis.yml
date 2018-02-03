@@ -1,0 +1,9 @@
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: X1fliTwLA2ubayCaWNpOCUEdcKbyOaY9sDtnNUuqb9o4dqdaI23yZV7R483rFNlKOBtIdgugfVIHEGZoJPai1bAOlmCH4ahGsER1bO6/lDHXhzBas0q02XocUlHOCVZhhenl4z5CAIJjMoqso4IfnF3nfyU8opDlrZ/rsEHSIRZ2ZgtNvb7Fq2DY7E6stSeQ7aj69YeD9DDMvRtwSPPrAAyLaP0cAl359dQzM1NmRM9QW9lKN1Form9tJFbUA9Ut4jf0uCb+hG+csXL9btd7iRI++D0n2dVBnRire15V1jQhCJPbUTFCn3AAmIDXooPpA3NtclH9NEEnAYCKyeoQbUWVlSHEdJAbStYS4mdKxQaLseI+pFkas/odwOhpEqYM6IQEKpyNwiNdJ+OHsY9NlGvgUcMswRe96fH14pm8M/loBMh6A6PkmhmYIQA5vDsAIa3jqxiUOW60LWfq0IQs7B4SLdeEsSgNZfB0cW0GtjSxMP/L+sO6dufzlDcCyyCVgW2jZ/mkfoxzh+xPNR29XxgMkxIzt++tbVPye9AN+KzDkDfHuGLEh1QnQqU2j7mWb0FeyErV86/8E7nn079OSiD/TWtAqqEB0AnwkRPaDlBvZUrtGIwOk2S7O//sQBlmJNxuiyieZOV0u93XZoSmLYeQKt2iBEYRQRVLwPJ2/wc=
+notifications:
+  email:
+    on_success: always
+    on_failure: always
